@@ -1,0 +1,640 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Serif;
+}
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pic/bg/12.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main ul {
+	list-style: none;
+	float: right;
+	margin-top: 20px;
+}
+.main ul li {
+	display: inline-block;
+}
+.main ul li a {
+	text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+	padding: 5px 15px;
+}
+.main ul li a:hover {
+    color: rgb(199, 5, 5);
+}
+.logo h4 {
+	color: #ad0202;
+	float: left;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.logo h4 b {
+	color: rgb(255, 255, 255);
+}
+.main {
+	max-width: 1200px;
+	margin: auto;
+}
+.title {
+	position: absolute;
+	top: 35%;
+	left: 25%;
+
+}
+.title h3 {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+.title h1 {
+	color: #fff;
+	font-size: 140px;
+}
+.title h1 b {
+    color: red;
+}
+.title h4 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 128px;
+}
+.content {
+    max-width: 1400px;
+	margin: auto;
+}
+.sidebar {
+    width: 450px;
+    float: left;
+    margin-top: 40px;
+}
+.sidebar h1 {
+    color: red;
+    font-size: 30px;
+}
+.sidebar h1 b {
+    color: rgb(3, 5, 110);
+}
+.sidebar h5 {
+    margin-bottom: 40px;
+    color: slategrey;
+}
+.recent-news {
+    width: 450px;
+    margin-bottom: 20px;
+}
+.recent-news img {
+    float: left;
+    height: 113px;
+    width: 188px;
+}
+.recent-news text {
+    float: left;   
+}
+.recent-news h2 {
+    color: red;
+    margin-left: 200px; 
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.recent-news P {
+    color: slategray;
+    margin-left: 200px; 
+    font-size: 12px;
+}
+.popular-place {
+    float: left;
+    width: 580px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.popular-place h1 {
+    color: red;
+    font-size: 30px;    
+}
+.popular-place h1 b {
+    color: rgb(11, 2, 134);
+}
+.popular-place h5 {
+    color: slategray;
+    margin-bottom: 40px;
+}
+.popular-place img {
+    height: 350px;
+    width: 480px;
+}
+.testmonials {
+    float: left;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.testmonials h1 {
+    color: red;
+    font-size: 30px;    
+}
+.testmonials h1 b {
+    color: rgb(11, 2, 134);
+}
+.testmonials h5 {
+    color: slategray;
+    margin-bottom: 40px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+.card img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-left: 100px;   
+}
+.card h1 {
+    font-size: 30px;
+    margin-top: 5px;
+    color: red;
+}  
+.card p {
+    color:black;
+    font-size: 18px;
+    margin: 20px;
+  }
+.card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+.about-us {
+    max-width: 1400px;
+    margin-top: 635px;
+    margin-left: 50px;
+    padding-bottom: 45px;
+}
+.info h1 {
+    color: red;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.info h1 b {
+    color: rgb(11, 2, 134);
+}
+.info p{
+    float: left;
+    width: 700px;
+    font-size: 15px;
+}
+.about-us button {
+    border: 1px solid;
+    padding: 7px 25px;
+    background-color: white;
+}
+.about-us button:hover {
+    background-color:black;
+    color: #fff;
+}
+.about-us img {
+    float: left;
+    height: 400px;
+    width: 680px; 
+    margin-left: 20px;
+}
+.plan {
+    text-align: center;
+    width: 1475px;
+}
+.plan h1 {
+    color: red;
+    font-size: 30px;
+}
+.plan h1 b {
+    color: rgb(11, 2, 134);
+}
+.plan h5 {
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.direction {
+    width: 300px;
+    float: left;
+    margin-left: 50px;
+}
+.direction h4 {
+    color: black;
+    margin-top: 35px;
+}
+.direction P {
+    margin-top: 30px;
+}
+.direction a {
+    color: red;
+}
+.resortin {
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+    padding-top: 315px;
+}
+.resortin h1 {
+    color: red;
+    font-size: 30px;
+}
+.resortin h1 b {
+    color: rgb(3, 5, 110);
+}
+.resortin p {
+    margin-bottom: 40px;
+    color: slategrey;
+}
+.bar {
+    width: 450px;
+    float: left;
+    margin-top: 40px;
+}
+.news {
+    width: 445px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+.news img {
+    float: left;
+    height: 133px;
+    width: 188px;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+.news text {
+    float: left;   
+}
+.news h2 {
+    color: red;
+    margin-left: 200px; 
+    padding-top: 10px;
+    font-size: 20px;
+}
+.news P {
+    color: slategray;
+    margin-left: 200px; 
+    font-size: 12px;
+}
+.side-img {
+    width: 900px;
+    float: left;
+}
+.side-img img {
+    height: 536px;
+    width: 970px;
+    margin-top: 40px;
+}
+.slider-ber {
+    width: 1400px;
+    padding-top: 640px;
+    padding-left: 100px;
+}
+.slider {
+    float: left;
+    width: 875px;
+}
+.gallery {
+    float: left;
+    width: 420px;
+    text-align: center;
+    background: #eae9e9;
+}
+.gallery h1 {
+    color: red;
+    font-size: 30px;
+    margin-top: 145px;
+}
+.gallery h1 b {
+    color: rgb(3, 5, 110);
+}
+.gallery h5 {
+    font-size: 15px;
+    padding-bottom: 30px;
+    color: slategray;
+}
+.gallery p {
+    margin-bottom: 40px;
+    color:black;
+    padding: 43px;
+}
+.carousel-control-next {
+    right: -375px;
+    top: 415px;
+}
+.carousel-control-prev {
+    left: 895px;
+    top: 415px;
+}
+.contain1 {
+    position: relative;
+    margin-top: 515px;
+  }
+.contain1 img {
+    width:100%;
+    height: 450px;
+    padding-top: 30px;
+}  
+.text-block {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    padding: 93px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+.text-block p {
+    padding: 40px;
+}
+.contain1 button {
+    padding: 5px 40px;
+    background-color: red;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+}
+.traveller {
+    width: 1400px;
+    text-align: center;
+    padding-left: 100px;
+}
+.traveller h1 {
+    color: red;
+    font-size: 30px;
+    margin-top: 145px;
+}
+.traveller h1 b {
+    color: rgb(3, 5, 110);
+}
+.traveller h5 {
+    font-size: 15px;
+    padding-bottom: 30px;
+    color: slategray;
+}
+.slideshow-container {
+    position: relative;
+    background: #fff;
+    border: 1px solid;
+    padding: 33px 33px;
+    margin: 0px 20px;
+}
+.mySlides {
+    text-align: center;
+    background-color: #0e0e3c;
+    color: white;
+    width: 1100px;
+    border-radius: 155px 0px 0px 155px;
+    height: 300px;
+    margin-left: 35px;
+}
+.mySlides img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 50%;
+    float: left;
+}
+.mySlides h2 {
+    color: #fff;
+    padding-top: 84px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 0px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+} 
+.active, .dot:hover {
+    background-color: #717171;
+}
+q {font-style: italic;}
+.author {color: cornflowerblue;}
+.moments {
+    width: 1400px;
+    text-align: center;
+}
+.moments h1 {
+    color: red;
+    font-size: 30px;
+    margin-top: 45px;
+    padding-left: 135px;
+}
+.moments h1 b {
+    color: rgb(3, 5, 110);
+}
+.moments h5 {
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-left: 135px;
+    color: slategray;
+}
+.event-moments-info {
+    width: 1400px;
+    padding: 10px;
+}
+.moments-info {
+    width: 590px;
+    float: left;
+    text-align: left;
+    margin: 10px 10px 10px 90px;
+}
+.moments-info img {
+    height: 330px;
+    width: 650px;
+}
+.moments-info h5 {
+    margin-top: 20px;
+}
+.moments-info h1 {
+    font-size: 30px;
+    color: black;
+    margin-top: 0px;
+}
+.moments-info p {
+    color: black;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.moments-info button {
+    border: 0px solid;
+    padding: 7px 25px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(175, 6, 6);  
+}
+.info-contain {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+.info-contain img {
+    width:100%;
+    height: 450px;
+    padding-top: 30px;
+}  
+.info-block {
+    position: absolute;
+    text-align: center;
+    bottom: 115px;
+    right: 195px;
+    color: white;
+    padding: 83px;
+    background: rgba(228, 227, 227, 0.5);
+}
+.info-contain h1 {
+    float: left;
+    color: black;
+}
+.info-contain button {
+    float: left;
+    padding: 10px 40px;
+    background-color: red;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 60px;
+}
+footer {
+    width: 100%;
+    background-color: rgb(3, 5, 110);
+    height: 60vh;
+	background-size: cover;
+	background-position: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+.coloum {
+    width: 1500px;
+    padding: 50px 60px;
+}
+.coloum1 {
+    width: 450px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.coloum1 h1 {
+    color: red;
+    font-size: 40px;
+}
+.coloum1 h1 b {
+    color: rgb(253, 253, 253);
+}
+.coloum1 p {
+    color: white;
+    font-size: 12px;
+}
+.coloum2 {
+    width: 225px;
+    float: left;
+}
+.coloum2 h3 {
+    color: white;
+}
+.coloum2 ul {
+    list-style: none;
+    margin-top: 15px;
+}
+.coloum2 ul li {
+    padding: 5px 0px;
+    line-height: 25px;
+}
+.coloum2 ul li a {
+	text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.coloum3 {
+    width: 225px;
+    float: left;
+}
+.coloum3 h3 {
+    color: white;
+}
+.coloum3 ul {
+    list-style: none;
+    margin-top: 15px;
+}
+.coloum3 ul li {
+    padding: 5px 0px;
+    line-height: 20px;
+}
+.coloum3 ul li a {
+	text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.coloum4 {
+    width: 450px;
+    float: left;
+}
+.coloum4 h3 {
+    color: white;
+}
+.coloum4 img {
+    width: 105px;
+    height: 85px;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+.footer-bottom {
+    text-align: center;
+    color: white;
+    margin-top: 290px;
+}
+.footer-bottom a {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
