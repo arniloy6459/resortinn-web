@@ -486,11 +486,13 @@ q {font-style: italic;}
 }
 .moments-info h5 {
     margin-top: 20px;
+    padding-left: 0px;
 }
 .moments-info h1 {
     font-size: 30px;
     color: black;
     margin-top: 0px;
+    padding-left: 0px;
 }
 .moments-info p {
     color: black;
