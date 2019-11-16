@@ -237,6 +237,7 @@ header {
 }
 .direction a {
     color: red;
+    text-decoration: none;
 }
 .resortin {
     max-width: 1400px;
