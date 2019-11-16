@@ -364,6 +364,10 @@ header {
     border-radius: 20px;
     color: #fff;
 }
+.contain1 button:hover {
+    background-color: white;
+    color: black;
+}
 .traveller {
     width: 1400px;
     text-align: center;
@@ -537,6 +541,9 @@ q {font-style: italic;}
     border-radius: 20px;
     color: #fff;
     margin-left: 60px;
+}
+.info-contain button:hover {
+    background-color: rgb(3, 5, 110);
 }
 footer {
     width: 100%;
