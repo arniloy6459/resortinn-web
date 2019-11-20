@@ -643,7 +643,402 @@ footer {
 
 
 
-
+@media (max-width: 320px) {
+    .logo h4 {
+        width: 320px;
+        color: #ad0202;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .main {
+        width: 320px;
+        text-align: center;
+    }
+    .main ul {
+        list-style: none;
+        margin-top: 10px;
+    }
+    .main ul li {
+        display: inline-block;
+    }
+    .main ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        float: left;
+        padding: 5px 43px;
+    }
+    .main ul li a:hover {
+        color: rgb(199, 5, 5);
+    }
+    .title {
+        position: absolute;
+        width: 320px;
+        top: 65%;
+        left: 0%;
+    
+    }
+    .title h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+    .title h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 70px;
+        margin-bottom: 0;
+    }
+    .title h4 {
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .sidebar {
+        width: 300px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .recent-news {
+        width: 300px;
+        margin: 10px;
+    }
+    .recent-news img {
+        height: 200px;
+        width: 300px;
+    }
+    .recent-news h2 {
+        color: red;
+        padding-top: 215px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .recent-news P {
+        color: slategray; 
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .popular-place {
+        width: 300px;
+        margin-top: 10px;
+        text-align: center;
+        margin: 10px;
+    }
+    .popular-place img {
+        height: 200px;
+        width: 300px;
+    }
+    .testmonials {
+        text-align: center;
+        width: 300px;
+        margin-top: 10px;
+        margin: 10px;
+    }
+    .testmonials h1 {
+        margin-top: 30px;
+        color: red;
+        font-size: 30px;    
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin-bottom: 20px;
+      }
+    .about-us {
+        width: 300px;
+        text-align: center;
+        margin-top: 10px;
+        margin: 10px;
+    }
+    .info p{
+        width: 300px;
+        font-size: 10px;
+    }
+    .about-us img {
+        height: 200px;
+        width: 300px; 
+        margin: 0px;
+    }
+    .about-us button {
+        margin-top: 20px;
+        border: 1px solid;
+        padding: 3px 95px;
+        background-color: white;
+    }
+    .about-us button:hover {
+        background-color:black;
+        color: #fff;
+    }
+    .plan {
+        text-align: center;
+        width: 300px;
+        margin: 10px;
+    }
+    .plan h5 {
+        font-size: 10px;
+    }
+    .direction {
+        width: 300px;
+        margin: 15px 0px;
+    }
+    .resortin {
+        width: 300px;
+        text-align: center;
+        padding-top: 1060px;
+        margin: 10px;
+    }
+    .bar {
+        width: 300px;
+        margin-top: 40px;
+    }
+    .news {
+        width: 300px;
+        margin-bottom: 20px;
+        border: 1px solid;
+    }
+    .news img {
+        height: 180px;
+        width: 280px;
+        padding-top: 0px;
+        padding-left: 0;
+        margin: 10px;
+    }
+    .news text {
+        text-align: center;   
+    }
+    .news h2 {
+        color: red;
+        margin-left: 0px; 
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .news P {
+        color: slategray;
+        margin-left: 0px; 
+        font-size: 10px;
+    }
+    .side-img {
+        width: 300px;
+    }
+    .side-img img {
+        height: 200px;
+        width: 300px;
+        margin-top: 10px;
+    }
+    .slider-ber {
+        width: 300px;
+        padding-top: 640px;
+        padding-left: 0px;
+    }
+    .slider {
+        width: 300px;
+        margin: 10px;
+    }
+    .gallery {
+        width: 300px;
+        margin: 10px;
+        text-align: center;
+        background: #eae9e9;
+    }
+    .gallery h1 {
+        color: red;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .carousel-control-next {
+        right: 0px;
+        top: 415px;
+    }
+    .carousel-control-prev {
+        left: 0px;
+        top: 415px;
+    }
+    .contain1 img {
+        width:320px;
+        height: 203px;
+        padding-top: 30px;
+    } 
+    .text-block {
+        width: 320px;
+        position: absolute;
+        text-align: center;
+        bottom: 0px;
+        right: 0px;
+        color: white;
+        padding: 16px;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .text-block h1 {
+          font-size: 15px;
+      }
+      .text-block p {
+        padding: 0px;
+        font-size: 8px;
+    }
+    .traveller {
+        width: 300px;
+        text-align: center;
+        padding-left: 0px;
+        margin: 10px;
+    }
+    .traveller h1 {
+        color: red;
+        font-size: 30px;
+        margin-top: 45px;
+    }
+    .slideshow-container {
+        position: relative;
+        background: #fff;
+        border: 1px solid;
+        padding: 15px 25px;
+        margin: 0px 0px;
+    }
+    .mySlides {
+        text-align: center;
+        background-color: #0e0e3c;
+        color: white;
+        width: 285px;
+        border-radius: 145px 0px 0px 145px;
+        height: 115px;
+        margin-left: -19px;
+    }
+    .mySlides img {
+        width: 110px;
+        height: 116px;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+    .mySlides h2 {
+        color: #fff;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    .mySlides q {
+        font-size: 12px;
+        margin: 2px;
+    }
+    .moments {
+        width: 320px;
+        text-align: center;
+    }
+    .moments h1 {
+        color: red;
+        font-size: 30px;
+        margin-top: 15px;
+        padding-left: 0px;
+    }
+    .moments h5 {
+        font-size: 15px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+        color: slategray;
+    }
+    .event-moments-info {
+        width: 300px;
+        padding: 10px;
+    }
+    .moments-info {
+        width: 300px;
+        text-align: left;
+        margin: 10px 10px 10px 0px;
+    }
+    .moments-info img {
+        height: 200px;
+        width: 300px;
+    }
+    .moments-info button {
+        border: 0px solid;
+        padding: 8px 80px;
+        border-radius: 20px;
+        color: #fff;
+        background-color: rgb(175, 6, 6);
+        margin-bottom: 8px;
+        margin-left: 21px;
+    }
+    .moments-info h5 {
+        margin-top: 20px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .info-contain {
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 40px;   
+    }
+    .info-contain img {
+        width:320px;
+        height: 200px;
+        padding-top: 30px;
+    }
+    .info-block {
+        position: absolute;
+        text-align: center;
+        bottom: 40px;
+        right: 0px;
+        color: white;
+        padding: 35px;
+        background: rgba(228, 227, 227, 0.5);
+    }
+    .info-contain h1 {
+        float: left;
+        color: black;
+        font-size: 20px;
+    }
+    footer {
+        width: 320px;
+        background-color: rgb(3, 5, 110);
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    .coloum {
+        width: 300px;
+        padding: 10px
+    }
+    .coloum1 {
+        width: 300px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .coloum2 {
+        width: 280px;
+        text-align: center;
+        margin: 10px;
+    }
+    .coloum3 {
+        width: 300px;
+        text-align: center;
+    }
+    .coloum4 {
+        width: 300px;
+        text-align: center;
+    }
+    .coloum4 img {
+        width: 68px;
+        height: 56px;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+    .footer-bottom {
+        text-align: center;
+        color: white;
+        margin-top: 925px;
+        font-size: 12px;
+    }
+}
 
 
 
